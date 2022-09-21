@@ -1,11 +1,11 @@
 {
-    "name": "slps970093/dingo-sanctum",
+    "name": "slps970093/dingo-api-sanctum",
     "description": "",
     "keywords": [
         "slps970093",
         "dingo-sanctum"
     ],
-    "homepage": "https://github.com/slps970093/dingo-sanctum",
+    "homepage": "https://github.com/slps970093/dingo-api-sanctum",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Slps970093\\DingoSanctum\\": "src"
+            "Slps970093\\DingoApiSanctum\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Slps970093\\DingoSanctum\\Tests\\": "tests"
+            "Slps970093\\DingoApiSanctum\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Slps970093\\DingoSanctum\\DingoSanctumServiceProvider"
+                "Slps970093\\DingoSanctum\\DingoApiSanctumServiceProvider"
             ],
             "aliases": {
-                "DingoSanctum": "Slps970093\\DingoSanctum\\DingoSanctumFacade"
+                "DingoSanctum": "DingoApiSanctum"
             }
         }
     }

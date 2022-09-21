@@ -1,6 +1,6 @@
 <?php
 
-namespace Slps970093\DingoSanctum;
+namespace Slps970093\DingoApiSanctum;
 
 use Dingo\Api\Routing\Route;
 use Illuminate\Auth\AuthManager;

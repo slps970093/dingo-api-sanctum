@@ -1,8 +1,8 @@
 # Dingo Api Sanctum Auth
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/slps970093/dingo-sanctum.svg?style=flat-square)](https://packagist.org/packages/slps970093/dingo-sanctum)
-[![Total Downloads](https://img.shields.io/packagist/dt/slps970093/dingo-sanctum.svg?style=flat-square)](https://packagist.org/packages/slps970093/dingo-sanctum)
-![GitHub Actions](https://github.com/slps970093/dingo-sanctum/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/slps970093/dingo-api-sanctum.svg?style=flat-square)](https://packagist.org/packages/slps970093/dingo-api-sanctum)
+[![Total Downloads](https://img.shields.io/packagist/dt/slps970093/dingo-api-sanctum.svg?style=flat-square)](https://packagist.org/packages/slps970093/dingo-api-sanctum)
+![GitHub Actions](https://github.com/slps970093/dingo-api-sanctum/actions/workflows/main.yml/badge.svg)
 
 
 ## Installation
@@ -10,7 +10,7 @@
 You can install the package via composer:
 
 ```bash
-composer require slps970093/dingo-sanctum
+composer require slps970093/dingo-api-sanctum
 ```
 
 ## Usage

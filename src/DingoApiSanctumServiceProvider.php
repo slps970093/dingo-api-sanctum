@@ -1,10 +1,10 @@
 <?php
 
-namespace Slps970093\DingoSanctum;
+namespace Slps970093\DingoApiSanctum;
 
 use Illuminate\Support\ServiceProvider;
 
-class DingoSanctumServiceProvider extends ServiceProvider
+class DingoApiSanctumServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -20,9 +20,9 @@ class DingoSanctumServiceProvider extends ServiceProvider
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('dingo-sanctum.php'),
-            ], 'config');
+            /*$this->publishes([
+                __DIR__.'/../config/config.php' => config_path('dingo-api-sanctum.php'),
+            ], 'config');*/
 
             // Publishing the views.
             /*$this->publishes([
@@ -50,11 +50,11 @@ class DingoSanctumServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'dingo-sanctum');
+        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'dingo-api-sanctum');
 
         // Register the main class to use with the facade
         $this->app->singleton('dingo-sanctum', function () {
-            return new DingoSanctum;
+            return new DingoApiSanctum;
         });
     }
 }

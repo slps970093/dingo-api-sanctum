@@ -1,13 +1,13 @@
 <?php
 
-namespace Slps970093\DingoSanctum;
+namespace Slps970093\DingoApiSanctum;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Slps970093\DingoSanctum\Skeleton\SkeletonClass
  */
-class DingoSanctumFacade extends Facade
+class DingoApiSanctumFacade extends Facade
 {
     /**
      * Get the registered name of the component.

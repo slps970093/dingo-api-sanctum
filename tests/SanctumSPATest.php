@@ -1,9 +1,9 @@
 <?php
 
-namespace Slps970093\DingoSanctum\Tests;
+namespace Slps970093\DingoApiSanctum\Tests;
 
 
-use Slps970093\DingoSanctum\SanctumSPA;
+use Slps970093\DingoApiSanctum\SanctumSPA;
 use Dingo\Api\Routing\Route;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Http\Request;
@@ -14,6 +14,10 @@ use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
 class SanctumSPATest extends TestCase
 {
     protected $auth;
+
+    /**
+     * @var SanctumSPA
+     */
     protected $provider;
 
     public function tearDown(): void

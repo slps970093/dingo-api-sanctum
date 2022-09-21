@@ -19,7 +19,7 @@ in config/api.php
 
 ```php
 'auth' => [ 
-    'sanctum' => \Slps970093\DingoSanctum\SanctumSPA::class 
+    'sanctum' => \Slps970093\DingoApiSanctum\SanctumSPA::class 
 ],
 ```
 

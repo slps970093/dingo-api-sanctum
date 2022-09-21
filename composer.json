@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Slps970093\\DingoSanctum\\DingoApiSanctumServiceProvider"
+                "Slps970093\\DingoApiSanctum\\DingoApiSanctumServiceProvider"
             ],
             "aliases": {
                 "DingoSanctum": "DingoApiSanctum"
